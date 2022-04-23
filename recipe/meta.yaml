@@ -1,5 +1,5 @@
 {% set name = "autoesda" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.6" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 83bfa06deaa41a29979918261fa69a1f53c623012b25d8e2cf1bd98fb3e597b8
+  sha256: f7bd3a57750364a6fc970209b6ebf3049017e20ed57261d00d357aa0074a4561
 
 build:
   number: 0
@@ -20,12 +20,12 @@ requirements:
     - python >=3.6
   run:
     - esda
-    - geopandas
-    - libpysal
-    - matplotlib
-    - pysal
+    - geopandas ==0.8.1
+    - libpysal ==4.4.0
+    - matplotlib ==3.4.2
+    - pysal ==2.3.0
     - python >=3.6
-    - seaborn
+    - seaborn ==0.11.2
     - splot >=1.1.4
 
 test:
