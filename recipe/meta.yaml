@@ -20,12 +20,12 @@ requirements:
     - python >=3.6
   run:
     - esda
-    - geopandas==0.8.1
-    - libpysal==4.4.0
-    - matplotlib==3.4.2
-    - pysal==2.3.0
-    - python>=3.6
-    - seaborn==0.11.2
+    - geopandas ==0.8.1
+    - libpysal ==4.4.0
+    - matplotlib ==3.4.2
+    - pysal ==2.3.0
+    - python >=3.6
+    - seaborn ==0.11.2
     - splot >=1.1.4
 
 test:
