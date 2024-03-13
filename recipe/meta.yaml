@@ -1,5 +1,5 @@
 {% set name = "autoesda" %}
-{% set version = "0.0.6" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7bd3a57750364a6fc970209b6ebf3049017e20ed57261d00d357aa0074a4561
+  sha256: 25595faad07c6ef8770c704c8e05acd096719d9d7e0d255334d6e01150aafb2a
 
 build:
   number: 0
